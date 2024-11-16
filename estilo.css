@@ -1,0 +1,121 @@
+.borda{
+    border: solid 1px #f30a0a;
+}
+
+
+.cor{
+    background-color: #8a0af3;
+}
+
+.navx{
+    position: relative;
+    background-color: rgb(78, 49, 240);
+    color: aliceblue;
+    max-width: 100%;
+}
+
+.logo{
+    position: relative;
+    padding-left: 100px;
+    top: 13px;
+}
+
+
+.l1{
+    position: relative;
+    color: #f30a0a;
+    left: 1000px;
+    margin: 5px;
+    
+}
+
+
+.imagem1{
+    position: relative;
+    background-color: #ffffff;
+    left: 100px;
+}
+
+
+.imagem2{
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    width: 500px;
+    
+   
+}
+
+#botao{
+    display: block;
+    background-color: #9761c4;
+    text-decoration: none;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.200)
+
+}
+
+#botao:hover{
+    background-color: #9d52da;
+}
+
+
+
+
+
+@media screen  and (max-width:900px){
+    .navx{
+        background-color: rgb(90, 29, 148);
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .logo{
+        padding-left:3px;
+        top: 3px;
+        color: rgb(211, 0, 158);
+    }
+   .l1{
+    left: 3px;
+    color: black;
+   }
+   .imagem1{
+    position: relative;
+    background-color: #ffffff;
+    left: 15px;
+    color: #8a0af3;
+}
+
+
+.imagem2{
+    position: relative;
+    background-color: #ffffff;
+    left:5px;
+    top: 50px;
+}
+
+#botao{
+    display: block;
+    background-color: #9761c4;
+    text-decoration: none;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.200)
+}
+#botao:hover{
+    background-color: #af78dd;
+}
+
+
+
+   
+}
+
